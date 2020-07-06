@@ -24,7 +24,7 @@ def submit_form():
         except:
             return 'Did not save to database'
     else:
-        return 'Something went wrong.  Try again!'
+        return 'Something went wrong.  Try again or send me an SMS!'
 
 
 def write_to_db(data):
